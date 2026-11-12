@@ -3,126 +3,111 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Derrick Hsu's coding portfolio featuring Study_Project and software development interests.">
-  <title>Derrick Hsu | Coding Portfolio</title>
+  <meta name="description" content="Meet Derrick Hsu, a student developer interested in game development. Explore Football-Game, his two-player American football browser game.">
+  <meta name="theme-color" content="#fafbfc">
+  <title>Derrick Hsu | Student Developer</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
-    <nav class="nav" aria-label="Main navigation">
-      <a class="brand" href="#top">Derrick Hsu</a>
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">dh.</span>Derrick Hsu</a>
       <div class="nav-links">
-        <a href="#work">Work</a>
-        <a href="#interests">Interests</a>
-        <a href="#contact">Contact</a>
+        <a href="#work">My work</a>
+        <a href="#about">About me</a>
+        <a href="#interests">My interests</a>
+        <a class="nav-github" href="https://github.com/DERHSU">GitHub <span aria-hidden="true">&#8599;</span></a>
       </div>
     </nav>
   </header>
-
-  <main id="top">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-content">
-        <p class="eyebrow">Student developer</p>
-        <h1 id="hero-title">I build projects to learn, solve problems, and grow as a programmer.</h1>
-        <p class="hero-copy">
-          I am Derrick Hsu, a student interested in coding and software development.
-          This portfolio highlights my work, my learning process, and the kind of
-          technical curiosity I want recruiters to see.
-        </p>
-        <div class="hero-actions" aria-label="Portfolio links">
-          <a class="button primary" href="https://github.com/DERHSU/Study_Project">View Study_Project</a>
-          <a class="button secondary" href="https://github.com/DERHSU">GitHub Profile</a>
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero-content">
+        <p class="eyebrow">I'm a student who loves to code.</p>
+        <h1 id="hero-title">I'm Derrick Hsu.</h1>
+        <p class="hero-statement">I'm learning to build software by creating games of my own.</p>
+        <p class="hero-copy">Coding gives me a way to turn an idea into something I can try out and improve. My football game is one way I'm putting that into practice as I explore what makes a game fun to play.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#work">Explore my work <span aria-hidden="true">&#8595;</span></a>
+          <a class="text-link" href="https://github.com/DERHSU">Visit my GitHub <span aria-hidden="true">&#8599;</span></a>
         </div>
+        <div class="hero-footnote"><span aria-hidden="true">01 /</span><p>My next steps start with what I'm learning today.</p></div>
       </div>
     </section>
-
-    <section class="section intro" aria-labelledby="intro-title">
-      <div>
-        <p class="eyebrow">About me</p>
-        <h2 id="intro-title">A student practicing the habits of a strong engineer.</h2>
-      </div>
-      <div class="intro-content">
-        <figure class="profile-photo">
-          <img src="assets/derrick-hsu.jpg" alt="Portrait of Derrick Hsu">
-          <figcaption>Derrick Hsu</figcaption>
-        </figure>
-        <p>
-          I am building a foundation through hands-on coding projects. My goal is
-          to keep improving my technical skills, communicate my work clearly, and
-          prepare for opportunities at larger technology companies.
-        </p>
-      </div>
-    </section>
-
-    <section class="section work" id="work" aria-labelledby="work-title">
+    <section class="section container work" id="work" aria-labelledby="work-title">
       <div class="section-heading">
-        <p class="eyebrow">Featured project</p>
-        <h2 id="work-title">Study_Project</h2>
+        <p class="eyebrow"><span aria-hidden="true">01 /</span> My work</p>
+        <h2 id="work-title">See what I'm working on.</h2>
       </div>
-
       <article class="project">
-        <div class="project-main">
-          <p class="project-label">DERHSU / Study_Project</p>
-          <h3>A public coding project that shows my learning in action.</h3>
-          <p>
-            Study_Project gives recruiters a direct place to review my code,
-            progress, and approach to building. It reflects my interest in
-            learning by making real files, organizing ideas, and improving over time.
-          </p>
-          <a class="text-link" href="https://github.com/DERHSU/Study_Project">Open the repository</a>
+        <div class="project-identity">
+          <span class="repo-symbol" aria-hidden="true">&lt;/&gt;</span>
+          <div>
+            <p class="repo-owner">github.com / DERHSU</p>
+            <h3>Football-Game</h3>
+          </div>
+          <a class="project-link" href="https://github.com/DERHSU/Football-Game">Explore the repository <span aria-hidden="true">&#8599;</span></a>
         </div>
-        <div class="project-details">
-          <h4>What to look for</h4>
-          <ul>
-            <li>Consistent coding practice</li>
-            <li>Problem-solving through small, concrete projects</li>
-            <li>Readable organization and steady improvement</li>
-            <li>A willingness to learn publicly and keep building</li>
-          </ul>
+        <div class="project-copy">
+          <h4>I built a football game for two players to compete in the browser.</h4>
+          <p>Football-Game is a local two-player American football game built with HTML, CSS, and JavaScript. Players choose their teams and call offensive or defensive plays before each snap, then take control on the field.</p>
+          <p>The game uses HTML canvas to draw the action and includes passing, kickoffs, touchdown scoring, and a four-quarter game clock. It brings my interest in game development into a project people can play together on the same computer.</p>
+          <a class="text-link" href="https://github.com/DERHSU/Football-Game">View the code on GitHub <span aria-hidden="true">&#8599;</span></a>
         </div>
       </article>
     </section>
-
-    <section class="section interests" id="interests" aria-labelledby="interests-title">
+    <section class="section container intro" id="about" aria-labelledby="intro-title">
+      <div class="about-copy">
+        <p class="eyebrow"><span aria-hidden="true">02 /</span> About me</p>
+        <h2 id="intro-title">I want to see where coding can take me.</h2>
+        <p>I'm a student interested in software development, and I want to keep learning by building things myself. Creating my football game has given me a way to explore game development, and I want to keep improving my programming skills through projects like it.</p>
+        <p>I'm also interested in opportunities at technology companies where I can learn from experienced developers and contribute as I grow.</p>
+      </div>
+      <figure class="profile-photo">
+        <img src="assets/derrick-hsu-portrait.png" alt="Portrait of Derrick Hsu" width="1354" height="1218" loading="lazy">
+        <figcaption>Derrick Hsu</figcaption>
+      </figure>
+    </section>
+    <section class="section container interests" id="interests" aria-labelledby="interests-title">
       <div class="section-heading">
-        <p class="eyebrow">Interests</p>
-        <h2 id="interests-title">What I want to build toward</h2>
+        <p class="eyebrow"><span aria-hidden="true">03 /</span> My interests</p>
+        <h2 id="interests-title">I want to make a game people enjoy playing.</h2>
+        <p>That goal gives me a reason to keep exploring how programming and creative decisions come together.</p>
       </div>
       <div class="interest-grid">
         <article>
-          <h3>Game development</h3>
-          <p>I want to use coding to create a game, combining logic, creativity, and interactive design into something people can play.</p>
+          <span class="interest-number" aria-hidden="true">01</span>
+          <h3>I want to bring an idea to life.</h3>
+          <p>I'd like to take a game from an initial idea to a playable project. Learning how to build it is part of what makes that goal exciting to me.</p>
         </article>
         <article>
-          <h3>Gameplay systems</h3>
-          <p>I am interested in learning how game mechanics, player controls, levels, and rules work together to make an experience feel fun.</p>
+          <span class="interest-number" aria-hidden="true">02</span>
+          <h3>I'm curious about what makes a game feel good.</h3>
+          <p>I want to understand how player controls, game rules, and level design shape the experience of playing.</p>
         </article>
         <article>
-          <h3>Creative problem solving</h3>
-          <p>Building a game will help me practice debugging, planning, and improving an idea step by step until it becomes a complete project.</p>
+          <span class="interest-number" aria-hidden="true">03</span>
+          <h3>I want to learn through each version.</h3>
+          <p>Building a game will give me a chance to try ideas, work through bugs, and keep improving something I care about.</p>
         </article>
       </div>
     </section>
-
-    <section class="section recruiter-note" aria-labelledby="recruiter-title">
-      <div>
-        <p class="eyebrow">For recruiters</p>
-        <h2 id="recruiter-title">I am looking for chances to learn, contribute, and grow.</h2>
+    <section class="contact-band" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-content">
+        <div>
+          <p class="eyebrow">Let's connect.</p>
+          <h2 id="contact-title">I'd like to keep learning with people who love building things.</h2>
+          <p>If you're looking at my work for an opportunity, my GitHub is a good place to get to know what I'm building.</p>
+        </div>
+        <a class="button primary" href="https://github.com/DERHSU">Find me on GitHub <span aria-hidden="true">&#8599;</span></a>
       </div>
-      <p>
-        My current portfolio is intentionally focused: one clear featured project,
-        direct links to my code, and a snapshot of my interests. As I continue
-        building, this page can expand with more projects, screenshots, and outcomes.
-      </p>
     </section>
   </main>
-
-  <footer class="footer" id="contact">
-    <p>Derrick Hsu</p>
-    <div>
-      <a href="https://github.com/DERHSU">GitHub</a>
-      <a href="https://github.com/DERHSU/Study_Project">Study_Project</a>
-    </div>
+  <footer class="footer container">
+    <a class="brand" href="#top">Derrick Hsu</a>
+    <p>I'm learning as I build.</p>
+    <a class="text-link" href="#top">Back to top <span aria-hidden="true">&#8593;</span></a>
   </footer>
 </body>
 </html>
